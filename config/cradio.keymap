@@ -142,8 +142,6 @@ MAKE_HRM(hmr_rpar_gt, &kp, &rpar_gt, KEYS_L THUMBS)    // "    "   "   "
 #define VOL_UP    &kp C_VOL_UP            // short for mac volume up
 #define VOL_DN    &kp C_VOL_DN            // short for mac volume down
 
-
-
 // mask CTRL when holding left/right to avoid accidental jumps to beginning/end of document
 // #define MASK_MODS(NAME, MODS, BINDING) \
 //     ZMK_MOD_MORPH(NAME, \
