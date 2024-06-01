@@ -22,10 +22,3 @@ include:
     shield: cradio_left
   - board: nice_nano_v2
     shield: cradio_right
-
-# The following is from https://github.com/urob/zmk-helpers?tab=readme-ov-file#user-content-fn-1-f4edb053adad022b6629c0255a048450
-on: [push, pull_request, workflow_dispatch]
-
-jobs:
-  build:
-    uses: urob/zmk/.github/workflows/build-user-config.yml@build-with-submodules
