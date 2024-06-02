@@ -1,5 +1,6 @@
-on: [push, pull_request, workflow_dispatch]
+# Commenting all this out. Don't know if I need it, and it's not compiling my keymap. 2024-06-02  
+# on: [push, pull_request, workflow_dispatch]
 
-jobs:
-  build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+# jobs:
+#   build:
+#     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
