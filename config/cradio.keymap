@@ -2,7 +2,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 #include "zmk-helpers/helper.h"
-#include "zmk-helpers/key-labels/34.h"
+// #include "zmk-helpers/key-labels/34.h"
 
 // #if CONFIG_WIRELESS
 //     #include <dt-bindings/zmk/bt.h>
