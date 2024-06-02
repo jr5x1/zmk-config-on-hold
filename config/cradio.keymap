@@ -293,10 +293,22 @@ ZMK_MOD_MORPH(bs_del,
 // COMBOS BY JM
 // Syntax: ZMK_COMBO(name, bindings, keypos, layers, timeout, prior_idle, extra)
 // Example: ZMK_COMBO(esc,  &kp ESC, 0 1, ALL, 25) (name is esc, keys 0 and 1, all layers, 25 ms timeout)
+combos {
+    compatible = "zmk,combos";
+
+    // LSHIFT + RIGHT INNER THUMB = ENTER
+    // combo_enter {
+    //     timeout-ms = <COMBO_TIMEOUT>;
+    //     key-positions = <49 50>;
+    //     bindings = <&kp ENTER>;
+    //     layers = <LAYER_DEF>;
+    // };
+// };
 ZMK_COMBO(ent,   &kp ENTER, 22 23, 0, 25) // C+D = Enter
 ZMK_COMBO(cut,   &kp LG(X), 20 21, 0, 25) // X+L = Cut
 ZMK_COMBO(copy,  &kp LG(C), 21 22, 0, 25) // L+C = Copy
 ZMK_COMBO(paste, &kp LG(V), 23 24, 0, 25) // D+V = Paste
+};
 
 /* Keymap */
 
