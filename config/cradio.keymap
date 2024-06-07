@@ -76,7 +76,7 @@ ZMK_COMBO(bak, &kp BSPC, 26 27, ALL, 25) // P+, = Backspace, active on all layer
     quick-tap-ms = <QUICK_TAP_MS>;
 };
 
-\ {
+{
     behaviors {
 		        num_word: behavior_num_word {
 			compatible = "zmk,behavior-caps-word";
