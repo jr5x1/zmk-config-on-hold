@@ -9,6 +9,7 @@
 // #endif
 
 #include "zmk-helpers/helper.h"
+#include "zmk-helpers/key-labels/34.h"  // replace by the correct header for your keyboard
 
 #define DEF 0
 #define SYM 1
