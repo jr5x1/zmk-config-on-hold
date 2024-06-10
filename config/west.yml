@@ -16,12 +16,21 @@
 # From urob, here: https://github.com/urob/zmk
 manifest:
   remotes:
-    - name: urob
+   - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
+   - name: urob
       url-base: https://github.com/urob
   projects:
     - name: zmk
       remote: urob
       revision: main
       import: app/west.yml
+    - name: zmk
+      remote: zmkfirmware
+      revision: main
+      import: app/west.yml
+    - name: zmk-helpers
+      remote: urob
+      revision: v2 # this will eventually become main
   self:
     path: config
