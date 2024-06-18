@@ -21,11 +21,11 @@
       key-positions = <LM1 RM1>;
       layers = <BASE>;
 
-#ifdef HAS_CAPSLOCK
-      bindings = <&caps_word_capslock >;
-#else
-      bindings = <&caps_word>;
-#endif
+// #ifdef HAS_CAPSLOCK
+//       bindings = <&caps_word_capslock >;
+// #else
+//       bindings = <&caps_word>;
+// #endif
     };
 
     combo_return {
