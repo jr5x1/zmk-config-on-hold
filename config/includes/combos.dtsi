@@ -31,7 +31,7 @@
     combo_return {
       timeout-ms = <COMBO_TERM_FAST>;
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-      key-positions = <LH2 LH1 LH0>;
+      key-positions = <LH1 LH0>;
       layers = <BASE SYM NAV NUM>; 
       bindings = <&kp RET>;
     };
