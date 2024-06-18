@@ -58,19 +58,19 @@
 
 //     };
 
-    combo_tog_num_word {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-      key-positions = <LB3 LB2 LB1>;
-      layers = <BASE SYM NAV NUM>; 
+//    combo_tog_num_word {
+//       timeout-ms = <COMBO_TERM_SLOW>;
+//       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+//       key-positions = <LB3 LB2 LB1>;
+//       layers = <BASE SYM NAV NUM>; 
 
-      #ifdef HAS_UROB
-        bindings = <&num_word>;
-      #else
-        bindings = <&tog NUM_WORD>;
-      #endif
+//       #ifdef HAS_UROB
+//         bindings = <&num_word>;
+//       #else
+//         bindings = <&tog NUM_WORD>;
+//       #endif
 
-    };
+//     };
 
 // #ifdef HAS_MOUSE_TP
 //     combo_tog_mouse_settings_l {
