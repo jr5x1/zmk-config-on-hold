@@ -19,7 +19,7 @@
       timeout-ms = <COMBO_TERM_SLOW>;
       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
       key-positions = <LM1 RM1>;
-      layers = <BASE BASE_QWERTY>;
+      layers = <BASE>;
 
 #ifdef HAS_CAPSLOCK
       bindings = <&caps_word_capslock >;
