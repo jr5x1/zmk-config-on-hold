@@ -44,19 +44,19 @@
       bindings = <&kp BSPC>;
     };
 
-    combo_tog_nav_word {
-      timeout-ms = <COMBO_TERM_SLOW>;
-      require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
-      key-positions = <LM3 LM2 LM1>;
-      layers = <BASE SYM NAV NUM>; 
+//     combo_tog_nav_word {
+//       timeout-ms = <COMBO_TERM_SLOW>;
+//       require-prior-idle-ms = <COMBO_PRIOR_IDLE>;
+//       key-positions = <LM3 LM2 LM1>;
+//       layers = <BASE SYM NAV NUM>; 
 
-      #ifdef HAS_UROB
-        bindings = <&nav_word>;
-      #else
-        bindings = <&tog NAV_WORD>;
-      #endif
+//       #ifdef HAS_UROB 
+//         bindings = <&nav_word>;
+//       #else
+//         bindings = <&tog NAV_WORD>;
+//       #endif
 
-    };
+//     };
 
     combo_tog_num_word {
       timeout-ms = <COMBO_TERM_SLOW>;
